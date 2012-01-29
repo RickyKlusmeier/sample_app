@@ -43,5 +43,5 @@ a:hover {
 }
 
 a:visited {
-  color: $visited-link-color;
+  color: $visited-link-color:;
 }

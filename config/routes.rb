@@ -1,8 +1,10 @@
 SampleApp::Application.routes.draw do
-  root :to => "welcome#index"
-  match '/contact', :to => 'pages#contact'
-  match '/about',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
+
+  match '/root_path', :to => 'pages#home'
+  match '/contact_path', :to => 'pages#contact'
+  match '/about_path',   :to => 'pages#about'
+  match '/help_path',    :to => 'pages#help'
+  match '/signup_path', :to => 'pages#signup'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
